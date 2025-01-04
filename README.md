@@ -48,9 +48,13 @@ Create a .env file in the backend directory:
 MONGO_URI=your_mongo_db_connection_string
 JWT_SECRET=your_jwt_secret_key
 
+For uploading sample data into the database please run the below command first.
+
+$  node seeder.js
+
 Start the backend server:
 
-$ npm start
+$  node server.js 
 
 The server will run at http://localhost:5000.
 
